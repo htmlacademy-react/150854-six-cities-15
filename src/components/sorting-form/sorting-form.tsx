@@ -1,5 +1,4 @@
 import { SORTING_OPTIONS } from '../../consts';
-import { SortingFormOption } from '../sorting-form-option/sorting-form-option';
 
 
 function SortingForm(): JSX.Element {
@@ -13,7 +12,8 @@ function SortingForm(): JSX.Element {
         </svg>
       </span>
       <ul className="places__options places__options--custom places__options--opened">
-        {SORTING_OPTIONS.map((sortingOption: string) => <SortingFormOption sortingOption={sortingOption} key={sortingOption} />)}
+        {SORTING_OPTIONS.map((sortingOption: string) =>
+          <li className="places__option places__option--active" tabIndex={0} key={sortingOption}>{sortingOption}</li>)}
       </ul>
     </form>
   );
@@ -21,4 +21,4 @@ function SortingForm(): JSX.Element {
 
 
 export { SortingForm };
-//
+

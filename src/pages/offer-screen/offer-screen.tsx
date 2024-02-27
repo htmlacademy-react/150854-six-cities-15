@@ -1,4 +1,3 @@
-//
 function OfferScreen(): JSX.Element {
   return (
     <div className="page">
@@ -339,5 +338,5 @@ function OfferScreen(): JSX.Element {
 
 
 export default OfferScreen;
-//
+
 

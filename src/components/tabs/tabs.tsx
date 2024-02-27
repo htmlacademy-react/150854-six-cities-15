@@ -1,4 +1,3 @@
-//
 import { CITIES } from '../../consts';
 import { TabsItem } from '../tabs-item/tabs-item';
 
@@ -17,4 +16,4 @@ function Tabs(): JSX.Element {
 
 
 export { Tabs };
-//
+

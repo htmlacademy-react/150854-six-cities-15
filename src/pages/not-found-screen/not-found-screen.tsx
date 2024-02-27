@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { Logo } from '../../components/logo/logo';
+import { AppRoute } from '../../consts';
 
 
 function NotFoundScreen(): JSX.Element {
@@ -23,7 +24,7 @@ function NotFoundScreen(): JSX.Element {
         <div className="page__login-container container">
           <section className="login">
             <h1 className="login__title">404. Page not found</h1>
-            <Link to="/">Return to main</Link>
+            <Link to={AppRoute.NotFound}>Return to main</Link>
           </section>
         </div>
       </main>

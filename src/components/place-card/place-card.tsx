@@ -1,4 +1,3 @@
-//
 function PlaceCard() {
   return (
     <article className="cities__card place-card">
@@ -39,4 +38,4 @@ function PlaceCard() {
 }
 
 export default PlaceCard;
-//
+

@@ -44,5 +44,5 @@ function LoginScreen(): JSX.Element {
 }
 
 
-export default LoginScreen;
+export { LoginScreen };
 
